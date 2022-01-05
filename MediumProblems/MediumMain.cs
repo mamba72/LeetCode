@@ -51,7 +51,7 @@ namespace MediumProblems
 		{
 			string fromFile = File.ReadAllText(fileName);
 
-			fromFile.Trim();
+			fromFile = fromFile.Trim();
 
 			return fromFile;
 		}

@@ -27,7 +27,11 @@ namespace EasyProblems
 
 			//ValidAnagramProblem.IsValidAnagramTester();
 
-			FindTargetIndiciesProblem.TargetIndiciesTester();
+			//FindTargetIndiciesProblem.TargetIndiciesTester();
+
+			//ComplimentOfIntegerProblem.BitwiseComplimentTester();
+
+			MaximumSubArray.MaxSubArrayTester();
 
 		}
 

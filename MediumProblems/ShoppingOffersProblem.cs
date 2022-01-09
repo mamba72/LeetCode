@@ -11,7 +11,7 @@ namespace MediumProblems
 		//solving this problem: https://leetcode.com/problems/shopping-offers/
 		public static int ShoppingOffers(IList<int> price, IList<IList<int>> special, IList<int> needs)
 		{
-
+			return 0;
 		}
 	}
 }

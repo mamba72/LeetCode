@@ -42,7 +42,13 @@ namespace MediumProblems
 
 			//ValidSquareProblem.ValidSquareTester();
 
-			SmallestIntDivisibleByKProblem.SmallestIntTester();
+			//SmallestIntDivisibleByKProblem.SmallestIntTester();
+
+			//CarPoolingProblem.CarPoolingTester();
+
+			//RobotBoundedInCircleProblem.BoundedRobotTester();
+
+			SubDomatinVisitCountProblem.SubdomainVisitTester();
 		}
 
 

@@ -11,7 +11,8 @@ namespace MediumProblems
         //solving this problem: https://leetcode.com/problems/powx-n/
         public static void PowTester()
 		{
-            double x = 1.00001;
+            //double x = 1.00001;
+            double x = 57;
             int n = 123456;
             Console.WriteLine(MyPow(x, n));
 		}

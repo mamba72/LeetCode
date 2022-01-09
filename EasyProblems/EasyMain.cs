@@ -33,6 +33,8 @@ namespace EasyProblems
 
 			MaximumSubArray.MaxSubArrayTester();
 
+			//IsValidPalindromeProblem.PalindromeTester();
+
 		}
 
 		public static Stopwatch stopwatch = new Stopwatch();

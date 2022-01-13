@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediumProblems", "MediumPro
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HardProblems", "HardProblems\HardProblems.csproj", "{F74A6968-4323-432B-9415-690CF53B3A9F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestMyProblems", "TestMyProblems\TestMyProblems.csproj", "{A63116E4-1456-42C5-9AF6-4CBE11FD510D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestMyProblems", "TestMyProblems\TestMyProblems.csproj", "{A63116E4-1456-42C5-9AF6-4CBE11FD510D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCodeHelperFunctions", "LeetCodeHelperFunctions\LeetCodeHelperFunctions.csproj", "{8D188601-488F-43F7-B7F0-342090CA6FD2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{A63116E4-1456-42C5-9AF6-4CBE11FD510D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A63116E4-1456-42C5-9AF6-4CBE11FD510D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A63116E4-1456-42C5-9AF6-4CBE11FD510D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D188601-488F-43F7-B7F0-342090CA6FD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D188601-488F-43F7-B7F0-342090CA6FD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D188601-488F-43F7-B7F0-342090CA6FD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D188601-488F-43F7-B7F0-342090CA6FD2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

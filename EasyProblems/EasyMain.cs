@@ -31,10 +31,13 @@ namespace EasyProblems
 
 			//ComplimentOfIntegerProblem.BitwiseComplimentTester();
 
-			MaximumSubArray.MaxSubArrayTester();
+			//MaximumSubArray.MaxSubArrayTester();
 
 			//IsValidPalindromeProblem.PalindromeTester();
 
+			//'AddBinaryProblem.AddBinaryTester();
+
+			NumbersSmallerThanCurrentProblem.SmallerNumbersTester();
 		}
 
 		public static Stopwatch stopwatch = new Stopwatch();

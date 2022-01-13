@@ -48,7 +48,21 @@ namespace MediumProblems
 
 			//RobotBoundedInCircleProblem.BoundedRobotTester();
 
-			SubDomatinVisitCountProblem.SubdomainVisitTester();
+			//SubDomatinVisitCountProblem.SubdomainVisitTester();
+
+			//ThreeSumTripletProblem.ThreeSumTester();
+
+			//NumInterchangeableRectanglesProblem.InterchangeableRectsTester();
+
+			//CountNicePairsInArrayProblem.CountNicePairsTester();
+
+			//ShortestUnsortedSubarrayProblem.FindUnsortedTester();
+
+			//ContinuousSubarraySumProblem.Tester();
+
+			//FourSumProblem.Tester();
+
+			FourSum2Problem.Tester();
 		}
 
 
@@ -73,8 +87,8 @@ namespace MediumProblems
 			stopwatch.Stop();
 			TimeSpan ts = stopwatch.Elapsed;
 
-			string elapsedTime = String.Format("{0:00}:{1:00}:{2:00}.{3:00}", ts.Hours, ts.Minutes, ts.Seconds, ts.Milliseconds / 10);
-
+			string elapsedTime = String.Format("{0:00}:{1:00}:{2:00}.{3:0000}", ts.Hours, ts.Minutes, ts.Seconds, ts.Milliseconds / 10);
+			stopwatch.Reset();
 			return elapsedTime;
 		}
 	}

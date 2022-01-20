@@ -3,6 +3,30 @@ namespace LeetCodeHelperFunctions
 {
 	public class InputReadingFuncts
 	{
+		public class ListNode
+		{
+			public int val;
+			public ListNode next;
+			public ListNode(int x)
+			{
+				val = x;
+				next = null;
+			}
+		}
+
+		public static ListNode CreateListFromArray(int[] nums)
+		{
+			ListNode head = new ListNode(nums[0]);
+			ListNode curNode = head;
+			for(int i = 1; i < nums.Length; ++i)
+			{
+				curNode.next = new ListNode(nums[i]);
+				curNode = curNode.next;
+			}
+
+			return head;
+		}
+
 		public static string ReadMassiveInput_Text(string fileName)
 		{
 			string fromFile = "";

@@ -62,7 +62,13 @@ namespace MediumProblems
 
 			//FourSumProblem.Tester();
 
-			FourSum2Problem.Tester();
+			//FourSum2Problem.Tester();
+
+			//InterleavingStringsProblem.Tester();
+
+			//PrintWordsVerticallyProblem.Tester();
+
+			CountPrimesProblem.Tester();
 		}
 
 

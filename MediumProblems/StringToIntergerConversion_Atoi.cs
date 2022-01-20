@@ -12,9 +12,103 @@ namespace MediumProblems
 		public static void MyAtoiTester()
 		{
 			string testerStr = "+1";
-			int output = MyAtoi2(testerStr);
+			testerStr = "    10522545459";
+			testerStr = "  0000000000012345678";
+			testerStr = "2147483646";
+			int output = MyAtoi_Attempt2(testerStr);
 			Console.WriteLine(testerStr + " = " + output);
 		}
+
+		public static int MyAtoi_Attempt2(string s)
+		{
+			Dictionary<char, int> charIntMap = new Dictionary<char, int>
+			{
+				['0'] = 0,
+				['1'] = 1,
+				['2'] = 2,
+				['3'] = 3,
+				['4'] = 4,
+				['5'] = 5,
+				['6'] = 6,
+				['7'] = 7,
+				['8'] = 8,
+				['9'] = 9
+			};
+
+			bool isNegative = false;
+
+			s = s.Trim();
+
+			if(s.Length == 0)
+				return 0;
+			else if(s.Length == 1)
+			{
+				if (Char.IsDigit(s[0]))
+					return charIntMap[s[0]];
+				else
+					return 0;
+			}
+
+			StringBuilder sb = new StringBuilder();
+			int index = 0;
+
+			if (s[index] == '-')
+			{
+				isNegative = true;
+				index++;
+			}
+			else if (s[index] == '+')
+				index++;
+
+			while(index < s.Length && s[index] == '0')
+			{
+				index++;
+			}
+			
+
+			while(index < s.Length && Char.IsDigit(s[index]))
+			{
+				
+				sb.Append(s[index]);
+				index++;
+			}
+
+			int sum = 0;
+			string numStr = sb.ToString();
+			double tensPlace = 0.1;
+			int curNum;
+
+			try
+			{
+				for (int i = numStr.Length - 1; i >= 0; --i)
+				{
+					curNum = charIntMap[numStr[i]];
+
+					tensPlace = checked(tensPlace * 10);
+
+					sum = checked(sum + curNum * (int)tensPlace);
+
+					
+				}
+
+				if (isNegative)
+					sum = checked(-1 * sum);
+
+			}
+			catch(OverflowException)
+			{
+				if(isNegative)
+				{
+					sum = int.MinValue;
+					isNegative = false;
+				}
+				else
+					sum = int.MaxValue;
+			}
+			
+			return sum;
+		}
+
 
 		public static int MyAtoi(string s)
 		{

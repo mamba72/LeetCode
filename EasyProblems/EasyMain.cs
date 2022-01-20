@@ -37,7 +37,13 @@ namespace EasyProblems
 
 			//'AddBinaryProblem.AddBinaryTester();
 
-			NumbersSmallerThanCurrentProblem.SmallerNumbersTester();
+			//NumbersSmallerThanCurrentProblem.SmallerNumbersTester();
+
+			//WordPatternProblem.Tester();
+
+			//IsomorphicStringsProblem.Tester();
+
+			UglyNumberProblem.Tester();
 		}
 
 		public static Stopwatch stopwatch = new Stopwatch();

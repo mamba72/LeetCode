@@ -43,7 +43,9 @@ namespace EasyProblems
 
 			//IsomorphicStringsProblem.Tester();
 
-			UglyNumberProblem.Tester();
+			//UglyNumberProblem.Tester();
+
+			TruncateSentenceProblem.Tester();
 		}
 
 		public static Stopwatch stopwatch = new Stopwatch();

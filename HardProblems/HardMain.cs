@@ -10,7 +10,9 @@ namespace HardProblems
 
 			//NumberToEnglishWordsProblem.NumberToWordsTester();
 
-			SubstringWithContatinationProblem.FindSubstringTester();
+			//SubstringWithContatinationProblem.FindSubstringTester();
+
+			MedianOfTwoSortedArrays.Tester();
 
 		}
 	}

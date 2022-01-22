@@ -9,4 +9,14 @@
     <ProjectReference Include="..\LeetCodeHelperFunctions\LeetCodeHelperFunctions.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="MassiveInputs\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="MassiveInputs\HarryPotterStone.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>

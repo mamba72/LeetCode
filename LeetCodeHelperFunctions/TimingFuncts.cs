@@ -24,5 +24,19 @@ namespace LeetCodeHelperFunctions
 			stopwatch.Reset();
 			return elapsedTime;
 		}
+
+		public static TimeSpan StopStopWatchElapsedTime()
+		{
+			stopwatch.Stop();
+			var ts = stopwatch.Elapsed;
+			stopwatch.Reset();
+			return ts;
+		}
+
+		public static string FormatTime(TimeSpan ts)
+		{
+			string elapsedTime = String.Format("{0:00}:{1:00}:{2:00}.{3:0000}", ts.Hours, ts.Minutes, ts.Seconds, ts.Milliseconds / 10);
+			return elapsedTime;
+		}
 	}
 }

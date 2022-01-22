@@ -68,7 +68,11 @@ namespace MediumProblems
 
 			//PrintWordsVerticallyProblem.Tester();
 
-			CountPrimesProblem.Tester();
+			//CountPrimesProblem.Tester();
+
+			//KokoEatingBananasProblem.Tester();
+
+			LongestPalindromicSubstring.LongestPalindromeTester();
 		}
 
 

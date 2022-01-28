@@ -10,11 +10,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="MassiveInputs\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Update="MassiveInputs\HarryPotterStone.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="MassiveInputs\MaxSubArrayInput.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>

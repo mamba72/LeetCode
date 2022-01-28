@@ -20,7 +20,7 @@ namespace MediumProblems
 			Console.WriteLine(InterchangeableRectangles_Dictionary(input));
 
 
-			input = InputReadingFuncts.ReadMassiveInput_2DArray("InterchangeableRectangles_Massive2DArray.txt");
+			input = InputReadingFuncts.ReadMassiveInput_2DArray_int("InterchangeableRectangles_Massive2DArray.txt");
 			Console.WriteLine(InterchangeableRectangles_Dictionary(input));
 
 

@@ -72,7 +72,23 @@ namespace MediumProblems
 
 			//KokoEatingBananasProblem.Tester();
 
-			LongestPalindromicSubstring.LongestPalindromeTester();
+			//LongestPalindromicSubstring.LongestPalindromeTester();
+
+			//SequentialDigitsProblem.Tester();
+
+			//RemoveNthNodeFromEndOfListProblem.Tester();
+
+			//DivideTwoIntegersProblem.Tester();
+
+			//ValidSudokuProblem.Tester();
+
+			//MaximumXORTwoNumsInArrayProblem.Tester();
+
+			//MaximumProductSubarrayProblem.Tester();
+
+			//AddAndSearchWordsProblem.Tester();
+
+			ImplementTrieProblem.Tester();
 		}
 
 

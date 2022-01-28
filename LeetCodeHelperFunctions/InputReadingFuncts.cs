@@ -27,6 +27,19 @@ namespace LeetCodeHelperFunctions
 			return head;
 		}
 
+		public static int[] CreateArrayFromList(ListNode head)
+		{
+			List<int> result = new List<int>();
+
+			while(head != null)
+			{
+				result.Add(head.val);
+				head = head.next;
+			}
+
+			return result.ToArray();
+		}
+
 		public static string ReadMassiveInput_Text(string fileName)
 		{
 			string fromFile = "";
@@ -64,7 +77,7 @@ namespace LeetCodeHelperFunctions
 		}
 
 
-		public static int[][] ReadMassiveInput_2DArray(string fileName)
+		public static int[][] ReadMassiveInput_2DArray_int(string fileName)
 		{
 			string fileText = ReadMassiveInput_Text(fileName);
 
@@ -87,6 +100,38 @@ namespace LeetCodeHelperFunctions
 				for(int j = 0; j < sepSplit.Length; ++j)
 				{
 					innArray[j] = int.Parse(sepSplit[j]);
+				}
+
+				list.Add(innArray);
+			}
+
+
+			return list.ToArray();
+		}
+
+		public static char[][] ReadMassiveInput_2DArray_char(string fileName)
+		{
+			string fileText = ReadMassiveInput_Text(fileName);
+
+			string[] separated = fileText.Split("],[");
+
+			List<char[]> list = new List<char[]>();
+
+			for (int i = 0; i < separated.Length; ++i)
+			{
+				if (i == 0)
+					separated[0] = separated[0].Replace("[", "");
+				else if (i == separated.Length - 1)
+					separated[i] = separated[i].Replace("]", "");
+
+
+				string[] sepSplit = separated[i].Split(',');
+
+				char[] innArray = new char[sepSplit.Length];
+
+				for (int j = 0; j < sepSplit.Length; ++j)
+				{
+					innArray[j] = sepSplit[j][1];
 				}
 
 				list.Add(innArray);

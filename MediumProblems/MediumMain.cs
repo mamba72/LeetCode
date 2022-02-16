@@ -88,7 +88,17 @@ namespace MediumProblems
 
 			//AddAndSearchWordsProblem.Tester();
 
-			ImplementTrieProblem.Tester();
+			//ImplementTrieProblem.Tester();
+
+			//LongestConsecutiveSequenceProblem.Tester();
+
+			//PerfectSquaresProblem.Tester();
+
+			//FindAllAnagramsProblem.Tester();
+
+			//ContiguousBinaryArrayProblem.Tester();
+
+			GrayCodeProblem.Tester();
 		}
 
 

@@ -12,7 +12,9 @@ namespace HardProblems
 
 			//SubstringWithContatinationProblem.FindSubstringTester();
 
-			MedianOfTwoSortedArrays.Tester();
+			//MedianOfTwoSortedArrays.Tester();
+
+			TrappingRainWaterProblem.Tester();
 
 		}
 	}

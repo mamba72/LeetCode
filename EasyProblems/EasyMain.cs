@@ -31,7 +31,7 @@ namespace EasyProblems
 
 			//ComplimentOfIntegerProblem.BitwiseComplimentTester();
 
-			MaximumSubArray.MaxSubArrayTester();
+			//MaximumSubArray.MaxSubArrayTester();
 
 			//IsValidPalindromeProblem.PalindromeTester();
 
@@ -56,6 +56,20 @@ namespace EasyProblems
 			//ValidMountainArrayProblem.Tester();
 
 			//EveryRowColumnContainsAllNumbersProblem.Tester();
+
+			//PlusOneProblem.Tester();
+
+			//RangeSumQueryProblem.Tester();
+
+			//BestTimeToBuyAndSellStockProblem.Tester();
+
+			//PowerOfThreeProblem.Tester();
+
+			//SumOfDigitsAfterConvertProblem.Tester();
+
+			//IsPerfectSquareProblem.Tester();
+
+			SquareRootProblem.Tester();
 		}
 
 		public static Stopwatch stopwatch = new Stopwatch();

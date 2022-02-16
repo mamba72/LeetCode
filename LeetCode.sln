@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HardProblems", "HardProblem
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestMyProblems", "TestMyProblems\TestMyProblems.csproj", "{A63116E4-1456-42C5-9AF6-4CBE11FD510D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCodeHelperFunctions", "LeetCodeHelperFunctions\LeetCodeHelperFunctions.csproj", "{8D188601-488F-43F7-B7F0-342090CA6FD2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCodeHelperFunctions", "LeetCodeHelperFunctions\LeetCodeHelperFunctions.csproj", "{8D188601-488F-43F7-B7F0-342090CA6FD2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

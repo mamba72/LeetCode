@@ -38,5 +38,22 @@ namespace LeetCodeHelperFunctions
 			string elapsedTime = String.Format("{0:00}:{1:00}:{2:00}.{3:0000}", ts.Hours, ts.Minutes, ts.Seconds, ts.Milliseconds / 10);
 			return elapsedTime;
 		}
+
+
+		public static TimeSpan TestFunction(Func<int, int> function, int functionInput, int timesToRun)
+		{
+			StartStopWatch();
+			for (int i = 0; i < timesToRun; i++)
+				function(functionInput);
+			return StopStopWatchElapsedTime();
+		}
+
+		public static TimeSpan TestFunction(Func<int[], int> function, int[] functionInput, int timesToRun)
+		{
+			StartStopWatch();
+			for (int i = 0; i < timesToRun; i++)
+				function(functionInput);
+			return StopStopWatchElapsedTime();
+		}
 	}
 }

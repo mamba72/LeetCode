@@ -11,13 +11,13 @@ namespace EasyProblems
 		//I am solving this problem:https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/
 
 
-		public static void GreatestNumberOfCandies_Tester()
+		public static void Tester()
 		{
 
 		}
 
 		
-		public static IList<bool> KidsWithCandies(int[] candies, int extraCandies)
+		private static IList<bool> KidsWithCandies(int[] candies, int extraCandies)
 		{
 			bool[] result = new bool[candies.Length];
 

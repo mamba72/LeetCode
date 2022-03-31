@@ -25,6 +25,9 @@
     <None Update="MassiveInputs\CountNicePairs_MassiveInputArray.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Update="MassiveInputs\DuplicateNumberInput.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Update="MassiveInputs\MaxXOR.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>

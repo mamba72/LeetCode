@@ -14,7 +14,11 @@ namespace HardProblems
 
 			//MedianOfTwoSortedArrays.Tester();
 
-			TrappingRainWaterProblem.Tester();
+			//TrappingRainWaterProblem.Tester();
+
+			LongestValidParenthesesProblem.Tester();
+
+			
 
 		}
 	}

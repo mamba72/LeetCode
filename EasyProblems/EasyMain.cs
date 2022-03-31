@@ -69,7 +69,11 @@ namespace EasyProblems
 
 			//IsPerfectSquareProblem.Tester();
 
-			SquareRootProblem.Tester();
+			//SquareRootProblem.Tester();
+
+			//ContainsDuplicatesProblem.Tester();
+
+			SubtractProductFromSumOfDigitsProblem.Tester();
 		}
 
 		public static Stopwatch stopwatch = new Stopwatch();

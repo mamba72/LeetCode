@@ -6,7 +6,7 @@ namespace LeetCodeHelperFunctions
 		public class ListNode
 		{
 			public int val;
-			public ListNode next;
+			public ListNode? next;
 			public ListNode(int x)
 			{
 				val = x;
@@ -17,9 +17,9 @@ namespace LeetCodeHelperFunctions
 		public class TreeNode
 		{
 			public int val;
-			public TreeNode left;
-			public TreeNode right;
-			public TreeNode(int val = 0, TreeNode left = null, TreeNode right = null)
+			public TreeNode? left;
+			public TreeNode? right;
+			public TreeNode(int val = 0, TreeNode? left = null, TreeNode? right = null)
 			{
 				this.val = val;
 				this.left = left;
@@ -40,7 +40,7 @@ namespace LeetCodeHelperFunctions
 			return head;
 		}
 
-		public static int[] CreateArrayFromList(ListNode head)
+		public static int[] CreateArrayFromList(ListNode? head)
 		{
 			List<int> result = new List<int>();
 

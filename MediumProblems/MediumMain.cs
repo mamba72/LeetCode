@@ -98,7 +98,11 @@ namespace MediumProblems
 
 			//ContiguousBinaryArrayProblem.Tester();
 
-			GrayCodeProblem.Tester();
+			//GrayCodeProblem.Tester();
+
+			//ScoreOfParenthesisProblem.Tester();
+
+			FindDuplicateNumberProblem.Tester();
 		}
 
 
